@@ -1,0 +1,31 @@
+#form{
+    text-align: center;
+    font-size: 40px;
+}
+.btn{
+    align-items: center;
+}
+.cards{
+width: 100%;
+padding: 2% 15%;
+}
+.quiz-btn{
+    padding-left: 30%;
+}
+.answers{
+    font-size: 20px;
+}
+
+.radioButton {
+    width: 100%;
+}
+
+.radioButtonInput {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.score{
+    font-size: 35px;
+    padding-left: 35%;
+}

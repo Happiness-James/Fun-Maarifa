@@ -1,0 +1,40 @@
+.nav-item {
+  padding-inline: 2em;
+  font-size: x-large;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+
+}
+
+.navbar {
+  height: 10vh;
+}
+.card{
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.card > img {
+  height: 10rem;
+  width: 10rem;
+}
+.card >p{
+  font-size: xx-large;
+}
+.create-form{
+  padding-left: 40%;
+}
+.row{
+  background-color: black;
+}
+.btn{
+  padding: 10px 170px;
+font-size: x-large;
+}
+.card-text{
+  font-size: 20px;
+}
+
+

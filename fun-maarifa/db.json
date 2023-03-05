@@ -1,0 +1,34 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Mr. Cute",
+      "image_url": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
+      "description": "pagfgjnkjljlkl"
+    },
+    {
+      "id": 2,
+      "title": "Mx. Monkey",
+      "image_url": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
+      "description": "hgvjhkjlklklk"
+    },
+    {
+      "id": 3,
+      "title": "Ms. Zebra",
+      "image_url": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif",
+      "description": "cvbmkjnklmlm"
+    },
+    {
+      "id": 4,
+      "title": "Dr. Lion",
+      "image_url": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif",
+      "description": "dfxghvujhikj"
+    },
+    {
+      "id": 5,
+      "title": "Mme. Panda",
+      "image_url": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
+      "description": "dcyghbjnm kj"
+    }
+  ]
+}
