@@ -3,12 +3,14 @@ import "../Quiz.css"
 import Questions from './Questions';
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router";
+import Navbar from "./Navbar";
 
 function Quiz() {
     const [data, setData] = useState([])
     const [status, setStatus] = useState("active")
     const [answeredQns, setAnsweredQns] = useState({})
     const [score, setScore] = useState('');
+    
 
     let currentLocation = useLocation();
     console.log(currentLocation.state.game);
@@ -51,6 +53,7 @@ function Quiz() {
 
     return (
         <>
+        <Navbar/>
             <div key={gameObj.id}>
                 <Questions
                     answeredQns={answeredQns}
@@ -58,9 +61,11 @@ function Quiz() {
                 />
             
                 <div className="quiz-btn">
-                    {/* <button className="btn btn-primary" onClick={deleteQuiz}>Delete</button><br/><br/> */}
-                    <br />
-                    <button className="btn btn-primary" onClick={checkResults}>Submit</button><br />
+                    
+                    <button className="btn btn-primary" onClick={checkResults}>Submit</button><br/><br/>
+                    <button className="btn btn-primary" onClick={deleteQuiz}>Delete</button><br/>
+
+
                 </div>
                 <div className="score">
                     You scored: 
